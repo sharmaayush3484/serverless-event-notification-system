@@ -41,7 +41,7 @@ Created an S3 bucket to store uploaded files and act as the event source.
 - Used it as trigger source  
 
 ### 📸 Screenshot:
-![S3 Bucket](screenshots/s3-bucket.png)
+![S3 Bucket](images/BUCKET-05)
 
 ---
 
