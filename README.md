@@ -77,53 +77,66 @@ def lambda_handler(event, context):
         print(message)
 ```
 
-🔐 3. IAM Role & Permissions
+---
+
+
+## 🔐 3. IAM Role & Permissions
 
 Configured IAM roles to allow Lambda to access SNS and S3.
 
-🔹 What I did:
+### 🔹 What I did:
 Attached SNS Full Access
 Allowed execution role
 📸 Screenshot:
 
-4. S3 Trigger Configuration
+---
+
+## 4. S3 Trigger Configuration
 
 Connected S3 bucket to Lambda function.
 
-🔹 What I did:
+### 🔹 What I did:
 Added event notification
 Set trigger for object upload (PUT event)
 📸 Screenshot:
 
-📊 5. CloudWatch Logs Monitoring
+---
+
+## 📊 5. CloudWatch Logs Monitoring
 
 Used CloudWatch to monitor Lambda execution and debug logs.
 
-🔹 What I did:
+### 🔹 What I did:
 Checked logs for event data
 Verified file name and bucket
 📸 Screenshot
 
-📩 6. SNS Notification Setup
+---
+
+## 📩 6. SNS Notification Setup
 
 Configured SNS to send email alerts.
 
-🔹 What I did:
+### 🔹 What I did:
 Created SNS topic
 Subscribed email
 Confirmed subscription
 📸 Screenshot:
 
-📧 7. Email Notification (Final Output)
+---
+
+## 📧 7. Email Notification (Final Output)
 
 When a file is uploaded, an email is automatically sent.
 
-🔹 Output:
+### 🔹 Output:
 File name included
 Bucket name included
 📸 Screenshot:
 
-🎯 Features
+---
+
+## 🎯 Features
 
 ✅ Fully serverless architecture
 ✅ Real-time event triggering
@@ -131,23 +144,35 @@ Bucket name included
 ✅ Scalable and cost-efficient
 ✅ No server management required
 
-🧠 Key Learnings
+---
+
+## 🧠 Key Learnings
 Event-driven architecture
 AWS Lambda triggers
 SNS integration
 IAM role management
 CloudWatch debugging
-🚀 Future Improvements
+
+---
+
+## 🚀 Future Improvements
 Add file type filtering (e.g., only PDF/images)
 Add SMS notifications
 Build a monitoring dashboard
 Integrate with frontend
-👨‍💻 Author
+
+---
+
+## 👨‍💻 Author
 
 Ayush Sharma
 
+---
+
 GitHub: https://github.com/your-username
 LinkedIn: https://linkedin.com/in/your-profile
-⭐ Final Note
 
-This project demonstrates practical implementation of modern cloud architecture using AWS services and showcases real-world problem-solving using serverless computing.
+---
+## ⭐ Final Note
+
+### This project demonstrates practical implementation of modern cloud architecture using AWS services and showcases real-world problem-solving using serverless computing.
