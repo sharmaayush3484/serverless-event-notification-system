@@ -52,7 +52,11 @@ Created a Lambda function to process S3 events.
 ### 🔹 What I did:
 - Created function using Python runtime  
 - Wrote code to extract file details  
-- Integrated SNS for notifications  
+- Integrated SNS for notifications
+
+### 📸 Screenshot:
+![LAMBDA](images/LAMBDA-01.PNG)
+
 
 ### 💻 Code:
 ```python
@@ -87,7 +91,9 @@ Configured IAM roles to allow Lambda to access SNS and S3.
 ### 🔹 What I did:
 Attached SNS Full Access
 Allowed execution role
-📸 Screenshot:
+
+### 📸 Screenshot:
+![IAM](images/IAM-03.PNG)
 
 ---
 
@@ -98,7 +104,6 @@ Connected S3 bucket to Lambda function.
 ### 🔹 What I did:
 Added event notification
 Set trigger for object upload (PUT event)
-📸 Screenshot:
 
 ---
 
@@ -109,8 +114,9 @@ Used CloudWatch to monitor Lambda execution and debug logs.
 ### 🔹 What I did:
 Checked logs for event data
 Verified file name and bucket
-📸 Screenshot
 
+### 📸 Screenshot
+![CLOUDWATCH](images/CLOUDWATCH-02.PNG)
 ---
 
 ## 📩 6. SNS Notification Setup
@@ -121,7 +127,9 @@ Configured SNS to send email alerts.
 Created SNS topic
 Subscribed email
 Confirmed subscription
-📸 Screenshot:
+
+### 📸 Screenshot:
+![SNS](images/SNS-04.PNG)
 
 ---
 
@@ -132,7 +140,9 @@ When a file is uploaded, an email is automatically sent.
 ### 🔹 Output:
 File name included
 Bucket name included
-📸 Screenshot:
+
+### 📸 Screenshot:
+![EMAIL](images/EMAIL-06.PNG)
 
 ---
 
